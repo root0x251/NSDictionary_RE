@@ -15,6 +15,7 @@
 		F9CFBA401E60101D00B4CA7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9CFBA3E1E60101D00B4CA7B /* LaunchScreen.storyboard */; };
 		F9CFBA4B1E60101D00B4CA7B /* Dictionary_ReTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CFBA4A1E60101D00B4CA7B /* Dictionary_ReTests.m */; };
 		F9CFBA561E60101D00B4CA7B /* Dictionary_ReUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CFBA551E60101D00B4CA7B /* Dictionary_ReUITests.m */; };
+		F9CFBA651E60107200B4CA7B /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CFBA641E60107200B4CA7B /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F9CFBA511E60101D00B4CA7B /* Dictionary_ReUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dictionary_ReUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9CFBA551E60101D00B4CA7B /* Dictionary_ReUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dictionary_ReUITests.m; sourceTree = "<group>"; };
 		F9CFBA571E60101D00B4CA7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9CFBA631E60107200B4CA7B /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		F9CFBA641E60107200B4CA7B /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				F9CFBA331E60101D00B4CA7B /* AppDelegate.h */,
 				F9CFBA341E60101D00B4CA7B /* AppDelegate.m */,
+				F9CFBA631E60107200B4CA7B /* Student.h */,
+				F9CFBA641E60107200B4CA7B /* Student.m */,
 				F9CFBA361E60101D00B4CA7B /* ViewController.h */,
 				F9CFBA371E60101D00B4CA7B /* ViewController.m */,
 				F9CFBA391E60101D00B4CA7B /* Main.storyboard */,
@@ -276,6 +281,7 @@
 				F9CFBA381E60101D00B4CA7B /* ViewController.m in Sources */,
 				F9CFBA351E60101D00B4CA7B /* AppDelegate.m in Sources */,
 				F9CFBA321E60101D00B4CA7B /* main.m in Sources */,
+				F9CFBA651E60107200B4CA7B /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
